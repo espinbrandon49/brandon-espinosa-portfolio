@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
+
+import About from './pages/About'
+import Portfolio from './pages/Portfolio'
+// import Contact from './Footer'
+// import Resume from './Footer'
 import Header from './Header'
-import Main from './Main'
-import Contact from './Contact'
+import Footer from './Footer'
 
 const styles = {
   width: {
@@ -11,11 +15,27 @@ const styles = {
 }
 
 const PortfolioContainer = () => {
+  const [key, setKey] = useState('About');
+
+  const renderPage = () => {
+    if (key === 'about') {
+      return <About />
+    }
+    if (key === 'portfolio') {
+      return <Portfolio />
+    }
+    //     {/* <Contact/> */}
+    // {/* <Resume/> */}
+    return <About />
+  }
+
+  const handlePageChange = (key) => setKey(key);
+
   return (
     <div className="App" style={styles.width}>
-      <Header />
-      <Main />
-      <Contact />
+      <Header key={key} handlePageChange={handlePageChange} />
+      {renderPage()}
+      <Footer />
     </div>
   )
 }

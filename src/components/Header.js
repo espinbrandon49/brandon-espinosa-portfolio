@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import Name from "./minis/Name";
 import Tab from "react-bootstrap/Tab";
@@ -11,21 +11,21 @@ const styles = {
   },
 }
 
-const Header = () => {
-  const [key, setKey] = useState('about');
+const Header = ({key, handlePageChange}) => {
+  // const [key, setKey] = useState('about');
 
-  function changeRender(key) {
-    if (key === 'about') {
-      console.log(key)
-    } else if (key === 'portfolio') {
-      console.log(key)
-    } else if (key === 'contact') {
-      console.log(key)
-    } else if (key === 'resume') {
-      console.log(key)
-    }
-    return key
-  }
+  // function changeRender(key) {
+  //   if (key === 'about') {
+  //     console.log(key)
+  //   } else if (key === 'portfolio') {
+  //     console.log(key)
+  //   } else if (key === 'contact') {
+  //     console.log(key)
+  //   } else if (key === 'resume') {
+  //     console.log(key)
+  //   }
+  //   return key
+  // }
 
   return (
     <div >
@@ -34,7 +34,8 @@ const Header = () => {
         activeKey={key}
         id="uncontrolled-tab-example" className="mb-3 justify-content-end"
         style={styles.name}
-        onSelect={(k) => setKey(k)}
+        onSelect={(key) => handlePageChange(key)}
+        // onSelect={(k) => setKey(k)}
       >
         <Tab eventKey="about" title="About"></Tab>
         <Tab eventKey="portfolio" title="Portfolio"></Tab>

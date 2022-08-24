@@ -14,7 +14,7 @@ const styles = {
   }
 }
 
-const Contact = () => {
+const Footer = () => {
   return (
     <footer>
       <ul style={styles.contact} >
@@ -40,4 +40,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Footer
