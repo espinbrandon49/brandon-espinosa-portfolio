@@ -1,43 +1,49 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
-import About from './pages/About'
-import Portfolio from './pages/Portfolio'
-// import Contact from './Footer'
-// import Resume from './Footer'
-import Header from './Header'
-import Footer from './Footer'
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+// import Resume from './Footer';
+import Header from './Header';
+import Footer from './Footer';
 
 const styles = {
   width: {
     maxWidth: "1200px",
     margin: "0 auto"
   },
-}
+};
 
 const PortfolioContainer = () => {
-  const [key, setKey] = useState('About');
+  const [page, setPage] = useState('about');
 
   const renderPage = () => {
-    if (key === 'about') {
-      return <About />
-    }
-    if (key === 'portfolio') {
-      return <Portfolio />
-    }
-    //     {/* <Contact/> */}
-    // {/* <Resume/> */}
-    return <About />
-  }
 
-  const handlePageChange = (key) => setKey(key);
+    if (page === 'contact') {
+      return <Contact />
+    };
+
+    if (page === 'portfolio') {
+      return <Portfolio />
+    };
+
+    // if (key === 'resume') {
+    //   return <Resume />
+    // };
+
+    return <About />
+  };
+
+  const handlePageChange = (page) => setPage(page);
+   
 
   return (
     <div className="App" style={styles.width}>
-      <Header key={key} handlePageChange={handlePageChange} />
+      <Header page={page} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />
     </div>
   )
-}
+};
 
-export default PortfolioContainer
+export default PortfolioContainer;

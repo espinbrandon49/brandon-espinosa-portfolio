@@ -7,35 +7,19 @@ import Tabs from "react-bootstrap/Tabs";
 const styles = {
   name: {
     transform: "translateY(-50%)",
-    // fontSize: "1.75vw",
   },
 }
 
-const Header = ({key, handlePageChange}) => {
-  // const [key, setKey] = useState('about');
-
-  // function changeRender(key) {
-  //   if (key === 'about') {
-  //     console.log(key)
-  //   } else if (key === 'portfolio') {
-  //     console.log(key)
-  //   } else if (key === 'contact') {
-  //     console.log(key)
-  //   } else if (key === 'resume') {
-  //     console.log(key)
-  //   }
-  //   return key
-  // }
+const Header = ({page, handlePageChange}) => {
 
   return (
     <div >
       <Name />
       <Tabs
-        activeKey={key}
+        activeKey={page}
         id="uncontrolled-tab-example" className="mb-3 justify-content-end"
         style={styles.name}
-        onSelect={(key) => handlePageChange(key)}
-        // onSelect={(k) => setKey(k)}
+        onSelect={(page) => handlePageChange(page)}
       >
         <Tab eventKey="about" title="About"></Tab>
         <Tab eventKey="portfolio" title="Portfolio"></Tab>
@@ -47,10 +31,3 @@ const Header = ({key, handlePageChange}) => {
 };
 
 export default Header;
-
-// import Github from "./Github";
-// import LinkedIn from "./LinkedIn";
-// {
-//   /* <span> <Github/> <LinkedIn/>
-// </span> */
-// }

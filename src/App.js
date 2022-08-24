@@ -9,4 +9,4 @@ function App() {
 
 export default App;
 
-
+//tabs only change to active on doubleclick
