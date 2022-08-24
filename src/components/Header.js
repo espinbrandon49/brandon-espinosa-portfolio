@@ -1,5 +1,6 @@
-import React from "react";
-import Name from "./Name";
+import React, { useState } from "react";
+
+import Name from "./minis/Name";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 
@@ -11,10 +12,30 @@ const styles = {
 }
 
 const Header = () => {
+  const [key, setKey] = useState('about');
+
+  function changeRender(key) {
+    if (key === 'about') {
+      console.log(key)
+    } else if (key === 'portfolio') {
+      console.log(key)
+    } else if (key === 'contact') {
+      console.log(key)
+    } else if (key === 'resume') {
+      console.log(key)
+    }
+    return key
+  }
+
   return (
     <div >
       <Name />
-      <Tabs defaultActiveKey="about" id="uncontrolled-tab-example" className="mb-3 justify-content-end" style={styles.name}>
+      <Tabs
+        activeKey={key}
+        id="uncontrolled-tab-example" className="mb-3 justify-content-end"
+        style={styles.name}
+        onSelect={(k) => setKey(k)}
+      >
         <Tab eventKey="about" title="About"></Tab>
         <Tab eventKey="portfolio" title="Portfolio"></Tab>
         <Tab eventKey="contact" title="Contact" ></Tab>

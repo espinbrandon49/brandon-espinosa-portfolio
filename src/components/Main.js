@@ -1,6 +1,6 @@
 import React from 'react'
-import About from './About'
-import Portfolio from './Portfolio'
+import About from './partials/About'
+import Portfolio from './partials/Portfolio'
 
 const Main = () => {
   return (

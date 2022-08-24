@@ -1,7 +1,7 @@
 import React from "react"
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Narratorium from '../assets/narratorium.png'
+import Narratorium from '../../assets/narratorium.png'
 
 const styles = {
   bold: {

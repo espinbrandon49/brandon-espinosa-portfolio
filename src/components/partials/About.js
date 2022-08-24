@@ -1,6 +1,5 @@
 import React from 'react'
-import Icon from '../assets/brandon.png'
-import Image from 'react-bootstrap/Image'
+import Icon from '../../assets/brandon.png'
 
 const styles = {
   about: {
