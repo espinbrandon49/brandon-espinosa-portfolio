@@ -8,6 +8,7 @@ const styles = {
     display: "flex",
     justifyContent: 'space-evenly',
     listStyle: 'none',
+    padding: "40px 0",
   },
   select: {
     userSelect: "all",

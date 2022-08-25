@@ -6,12 +6,14 @@ import Narratorium from '../../assets/narratorium.png'
 const styles = {
   bold: {
     fontWeight: '700',
+  },
+  width: {
+    width: "350px",
   }
 }
-
 const Portfolio = () => {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={styles.width}>
       <Card.Img variant="top" src={Narratorium} />
       <Card.Body>
         <Card.Title>Narratorium</Card.Title>
