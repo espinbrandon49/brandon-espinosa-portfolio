@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/brandon-espinosa-portfolio/static/css/main.84487ea8.css",
+    "main.js": "/brandon-espinosa-portfolio/static/js/main.f022367e.js",
+    "static/media/brandon.png": "/brandon-espinosa-portfolio/static/media/brandon.d91c11abf74444d60b5b.png",
+    "static/media/narratorium.png": "/brandon-espinosa-portfolio/static/media/narratorium.fadc571286f2321246d1.png",
+    "index.html": "/brandon-espinosa-portfolio/index.html",
+    "main.84487ea8.css.map": "/brandon-espinosa-portfolio/static/css/main.84487ea8.css.map",
+    "main.f022367e.js.map": "/brandon-espinosa-portfolio/static/js/main.f022367e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84487ea8.css",
+    "static/js/main.f022367e.js"
+  ]
+}
