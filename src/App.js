@@ -11,5 +11,6 @@ export default App;
 
 //send contact form message to my email
 //download resume
-//on portfolio stoppropogation on accordian links
+//on portfolio stop propogation on accordian links
+//get images using map in portfolio
 //my linkiedIn icon button does not work 
