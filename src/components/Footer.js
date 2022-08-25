@@ -1,7 +1,7 @@
 import React from 'react'
-import Github from './images/Github'
-import LinkedIn from './images/LinkedIn'
-import Medium from './images/Medium'
+import Github from './minis/Github'
+import LinkedIn from './minis/LinkedIn'
+import Medium from './minis/Medium'
 
 const styles = {
   contact: {

@@ -23,9 +23,9 @@ const About = () => {
       <img src={Icon} alt="Brandon Espinosa" style={styles.icon} className="fluid rounded-circle" />
       <h2 style={styles.hello}>Hello!</h2>
       <div>
-        <p>I began my career as an adult with the decision to serve my country and fellow Americans in the U.S. Army as a special operations combat medic and in the 3rd Airborne Ranger Battalion. The war took me to Afghanistan where I fulfilled my mission by serving my fellow soldiers as the sole healthcare provider for my platoon of 60 Rangers providing healthcare in garrison and in combat. After my honorable discharge, I pursued a career in human resources with a Bachelor's of Science in Psychology serving a company I loved, Smith Hampton & Devlin, LLC, a boutique staffing firm based in Oakland, CA for over 10 years.The company dissolved in 2021 and I took this as an opportunity to pursue a career in technology where I can contribute and serve my fellows at a much greater magnitude.</p>
+        <p>I began my career as an adult with the decision to serve my country and fellow Americans in the U.S. Army as a special operations combat medic and in the 3rd Airborne Ranger Battalion. The war took me to Afghanistan where I fulfilled my mission by serving my fellow soldiers as the sole healthcare provider for my platoon of 60 Rangers in garrison and in combat. After my honorable discharge, I pursued a career in human resources with a Bachelor's of Science in Psychology serving a company I loved, Smith Hampton & Devlin, LLC, a boutique staffing firm based in Oakland, CA for over 10 years.  The company dissolved in 2021 and I took this as an opportunity to pursue a career in technology where I can continue to serve at a much greater scale.</p>
         <p>
-          I bring to any community I am a part of an attitude of service. I don't know how to give less than 150% as a contributor and relish a challenge to give more. Since the day I turned 17 and thus old enough to be of service to others on my own volition, I drilled, trained, studied and cultivated my practice of the core Army values,<em> Loyalty, Duty, Respect, Selfless Service, Honor, Integrity, and Personal Courage</em>.
+          I bring to any community I am a part of an attitude of service. I don't know how to give less than 150% as a contributor and relish opportunities to give more. Since the day I turned 17 and thus old enough to be of service to others on my own volition, I drilled, trained, studied and cultivated my practice of the core Army values,<em> Loyalty, Duty, Respect, Selfless Service, Honor, Integrity, and Personal Courage</em> and bring this ethos to my every interaction.
         </p>
         <p>Outside of my proficiency in LDRSHIP, I am also proficient in the theory and application of web development in current technologies including the MERN stack. My technical proficiencies extend to:</p>
         <ul>
@@ -37,9 +37,11 @@ const About = () => {
           <li>Computer Science theory, algorithms, performance, time complexity, Big O notation, data structures.</li>
         </ul>
         <p>
-        Thanks for making it this far, I'd love to from you regarding employment opportunities, collaborations, and Salutons.
+        Thanks for taking the time to read about yours truly.  I'd love to from you regarding employment opportunities, collaborations, or Salutons.
         </p> 
-        -Brandon Espinosa
+        
+        Salud, <br/>
+        Brandon Espinosa
       </div>
     </section>
   );
