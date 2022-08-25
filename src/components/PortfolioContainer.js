@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-// import Resume from './Footer';
+import Resume from './pages/Resume';
 import Header from './Header';
 import Footer from './Footer';
 
@@ -27,15 +27,15 @@ const PortfolioContainer = () => {
       return <Portfolio />
     };
 
-    // if (key === 'resume') {
-    //   return <Resume />
-    // };
+    if (page === 'resume') {
+      return <Resume />
+    };
 
     return <About />
   };
 
   const handlePageChange = (page) => setPage(page);
-   
+
 
   return (
     <div className="App" style={styles.width}>

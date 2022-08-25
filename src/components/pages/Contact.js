@@ -1,12 +1,9 @@
-//make a contact form with useState values and email
-//stu-16
-
 import React, { useState } from "react";
-
 import Button from "react-bootstrap/Button";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
 
+//style
 const styles = {
   width: {
     maxWidth: "481px",
@@ -20,6 +17,7 @@ function Contact() {
   const [comment, setComment] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
+  //input
   const handleInputChange = (e) => {
     const { target } = e;
     const inputType = target.name;
@@ -34,6 +32,7 @@ function Contact() {
     }
   };
 
+  //form submit
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
@@ -56,6 +55,7 @@ function Contact() {
 
   return (
     <Form style={styles.width}>
+
       <h2 className="mb-3">Contact</h2>
 
       <FloatingLabel controlId="floatingPassword" label="name">
@@ -65,6 +65,7 @@ function Contact() {
           className="mb-3"
           name="name"
           value={name}
+          onChange={handleInputChange}
         />
       </FloatingLabel>
 
@@ -74,6 +75,7 @@ function Contact() {
           placeholder="name@example.com"
           name="email"
           value={email}
+          onChange={handleInputChange}
           />
       </FloatingLabel>
 
@@ -84,12 +86,24 @@ function Contact() {
           style={{ height: "100px" }}
           name="comment" 
           value={comment}
+          onChange={handleInputChange}
           />
       </FloatingLabel>
 
-      <Button variant="primary" type="submit">
+      <Button
+        variant="primary"
+        type="submit"
+        onClick={handleFormSubmit}
+        >
         Submit
       </Button>
+
+      {errorMessage && (
+        <div>
+          <p className="invalid-feedback">{errorMessage}</p>
+        </div>
+      )}
+
     </Form>
   );
 }

@@ -9,4 +9,5 @@ function App() {
 
 export default App;
 
-//tabs only change to active on doubleclick
+//send contact form message to my email
+//download resume
