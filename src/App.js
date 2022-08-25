@@ -9,8 +9,9 @@ function App() {
 
 export default App;
 
-//send contact form message to my email
-//download resume
-//on portfolio stop propogation on accordian links
+
 //get images using map in portfolio
-//my linkiedIn icon button does not work 
+//on portfolio stop propogation on accordian links
+//should my projects be in a json instead of a .js?
+//send contact form message to my email - https://www.youtube.com/watch?v=Yg6POD0M30w&t=82s
+//download resume
