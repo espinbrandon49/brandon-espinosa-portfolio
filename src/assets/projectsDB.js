@@ -40,7 +40,7 @@ module.exports = [
     technologies: "HTML, CSS, JavaScript, Web API, local stroage",
     deployedLink: "https://espinbrandon49.github.io/javaScriptQuiz/",
     githubRepo: "https://github.com/espinbrandon49/javaScriptQuiz",
-    img: "codeQuiz",
+    img: "javscript-quiz",
     imgAlt: "Timed coding quiz with multiple-choice questions features dynamically updated HTML and CSS powered by JavaScript.",
     description: "Timed coding quiz with multiple-choice questions features dynamically updated HTML and CSS powered by JavaScript.",
   },
