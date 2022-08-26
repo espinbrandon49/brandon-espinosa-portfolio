@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/brandon-espinosa-portfolio/static/css/main.84487ea8.css",
-    "main.js": "/brandon-espinosa-portfolio/static/js/main.f022367e.js",
+    "main.js": "/brandon-espinosa-portfolio/static/js/main.b45a35a8.js",
+    "static/media/ev-charging-locator.png": "/brandon-espinosa-portfolio/static/media/ev-charging-locator.e1edd96fe345f53433e9.png",
     "static/media/brandon.png": "/brandon-espinosa-portfolio/static/media/brandon.d91c11abf74444d60b5b.png",
-    "static/media/narratorium.png": "/brandon-espinosa-portfolio/static/media/narratorium.fadc571286f2321246d1.png",
+    "static/media/narratorium.png": "/brandon-espinosa-portfolio/static/media/narratorium.315268c21e0a2244ec4f.png",
+    "static/media/hack-a-thought.png": "/brandon-espinosa-portfolio/static/media/hack-a-thought.5497c18ef13b6414c665.png",
+    "static/media/Brandon_Espinosa_Resume.pdf": "/brandon-espinosa-portfolio/static/media/Brandon_Espinosa_Resume.49ab2d15a06d32b2e2c1.pdf",
+    "static/media/easy-access-weather.png": "/brandon-espinosa-portfolio/static/media/easy-access-weather.b5c8aeeb936d8e69c01e.png",
+    "static/media/javascript-quiz.png": "/brandon-espinosa-portfolio/static/media/javascript-quiz.83f8ab4f4b284985d8af.png",
+    "static/media/stark-bare-notes.png": "/brandon-espinosa-portfolio/static/media/stark-bare-notes.9b27b14e3e4cde1d711a.png",
     "index.html": "/brandon-espinosa-portfolio/index.html",
     "main.84487ea8.css.map": "/brandon-espinosa-portfolio/static/css/main.84487ea8.css.map",
-    "main.f022367e.js.map": "/brandon-espinosa-portfolio/static/js/main.f022367e.js.map"
+    "main.b45a35a8.js.map": "/brandon-espinosa-portfolio/static/js/main.b45a35a8.js.map"
   },
   "entrypoints": [
     "static/css/main.84487ea8.css",
-    "static/js/main.f022367e.js"
+    "static/js/main.b45a35a8.js"
   ]
 }
