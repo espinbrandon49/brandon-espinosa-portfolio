@@ -4,6 +4,7 @@ import Project from '../minis/Project'
 const styles = {
   maxWidth: {
     maxWidth: "992px",
+    margin: '0 auto',
   },
 };
 
