@@ -93,7 +93,7 @@ function Contact() {
       <Button
         variant="primary"
         type="submit"
-        onClick={handleFormSubmit}
+        onClick={() => handleFormSubmit()}
         >
         Submit
       </Button>
