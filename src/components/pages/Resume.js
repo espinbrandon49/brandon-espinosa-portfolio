@@ -1,15 +1,16 @@
 import React from "react";
-
+import pdf from "../../assets/Brandon_Espinosa_Resume.pdf"
 const styles = {
   width: {
     maxWidth: "992px",
   },
+
 };
 
 const Resume = () => {
   return (
     <section className="mx-5" style={styles.width}>
-      <h2 className="my-4">Resume</h2>
+      <h2 className="my-4">Resume <a className="btn btn-primary" href={pdf} target='__blank' download>download</a></h2>
 
       <div className="mb-4">
         <h5 className="mb-1">U.C. Berkeley Extension Fullstack Coding Bootcamp</h5>
@@ -20,7 +21,7 @@ const Resume = () => {
             <strong>Browser based technologies: </strong>HTML/CSS, JavaScript, React.JS, Bootstrap , web API, jQuery, responsive design, PWA's
           </li>
           <li>
-            <strong>Databases: </strong>- MongoDB, Mongoose and MySQL, Sequelize
+            <strong>Databases: </strong>MongoDB, Mongoose and MySQL, Sequelize
           </li>
           <li>
             <strong>Server side development: </strong>Express.js, Node.js, various template engines, user authentication
