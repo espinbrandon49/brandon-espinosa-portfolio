@@ -18,7 +18,7 @@ Computer Science theory, algorithms, performance, time complexity, Big O notatio
 [Deployed link](https://espinbrandon49.github.io/brandon-espinosa-portfolio/)
 Git clone - git@github.com:espinbrandon49/brandon-espinosa-portfolio.git
 
-[![An image shows the text-editor application with 500 words of lorem ipsum text.](./assets/text-editor-image.png)](https://espinbrandon49.github.io/brandon-espinosa-portfolio/)
+[![An image shows the portfolio application](./src/assets/React%20App.gif)](https://espinbrandon49.github.io/brandon-espinosa-portfolio/)
 
 
 ## Table of Contents
