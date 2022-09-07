@@ -1,15 +1,15 @@
 module.exports = [
   {
-    name: "Server-Side API",
-    technologies: "JavaScript, HTML, CSS, Git, GitHub, Chrome DevTools",
-    deployedLink: "https://espinbrandon49.github.io/easy-access-weather/",
-    githubRepo: "https://github.com/espinbrandon49/easy-access-weather",
-    img: "easy-access-weather",
-    imgAlt: "A weather dashboard to see the weather outlook for multiple cities.",
-    description: "A weather dashboard to allow a user to see the weather outlook for multiple cities."
+    name: "Collaborative - MERN",
+    technologies: "React.js, Recharts, react-quill, Bulma, Express.js, Node.js, JWT, Apollo Client, MongoDB, Heroku, Figma",
+    deployedLink: "https://hireablehippohelper.herokuapp.com/",
+    githubRepo: "https://github.com/espinbrandon49/Hireable-Hippo-Helper",
+    img: "hireable-hippo-helper",
+    imgAlt: "Full-stack application that allows users to add information about jobs that they have applied for and track their progress",
+    description: "full-stack application that allows users to add information about jobs that they have applied for and track their progress",
   },
   {
-    name: "Interactive Front-End",
+    name: "Collaborative Interactive Front-End",
     technologies: "JavaScript, HTML, CSS, Skeleton (style), server-side API, client-side storage (local storage), leaflet (map)",
     deployedLink: "https://espinbrandon49.github.io/EV-Charging-Station-Locator/",
     githubRepo: "https://github.com/espinbrandon49/EV-Charging-Station-Locator",
@@ -18,7 +18,7 @@ module.exports = [
     description: "App that collects data based on a person's location search and displays map and retail information."
   },
   {
-    name: "Interactive Full-Stack",
+    name: "Collaborative Full-Stack",
     technologies: "FRONT-END: HTML, CSS, Javascript, Fetch, Web API, Session Storage, Skeleton, Figma, Quill.js \n BACK-END: Node, NPM, Express, MySQL, Sequelize, user authentication, Handlebars, Socket.io",
     deployedLink: "https://narratorium.herokuapp.com/",
     githubRepo: "https://github.com/espinbrandon49/narratorium",
@@ -52,5 +52,14 @@ module.exports = [
     img: "stark-bare-notes",
     imgAlt: "Note Taker that can be used to write and save notes, uses an Express.js back end.",
     description: "Note Taker that can be used to write and save notes, uses an Express.js back end.",
+  },
+  {
+    name: "Server-Side API",
+    technologies: "JavaScript, HTML, CSS, Git, GitHub, Chrome DevTools",
+    deployedLink: "https://espinbrandon49.github.io/easy-access-weather/",
+    githubRepo: "https://github.com/espinbrandon49/easy-access-weather",
+    img: "easy-access-weather",
+    imgAlt: "A weather dashboard to see the weather outlook for multiple cities.",
+    description: "A weather dashboard to allow a user to see the weather outlook for multiple cities."
   }
 ]
