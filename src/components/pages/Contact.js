@@ -3,14 +3,6 @@ import Button from "react-bootstrap/Button";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
 
-//style
-const styles = {
-  width: {
-    maxWidth: "481px",
-    margin: "0 auto",
-  },
-};
-
 function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -54,22 +46,20 @@ function Contact() {
   };
 
   return (
-    <Form style={styles.width}>
-
-      <h2 className="mb-3">Contact</h2>
-
+    <Form className="container p-5">
+      <h2 className="mb-3 lora">Contact</h2>
       <FloatingLabel controlId="floatingPassword" label="name">
         <Form.Control
           type="text"
           placeholder="First Name Last Name" 
-          className="mb-3"
+          className="mb-3 lato"
           name="name"
           value={name}
           onChange={handleInputChange}
         />
       </FloatingLabel>
 
-      <FloatingLabel controlId="floatingInput" label="email" className="mb-3">
+      <FloatingLabel controlId="floatingInput" label="email" className="mb-3 lato">
         <Form.Control
           type="email"
           placeholder="name@example.com"
@@ -79,7 +69,7 @@ function Contact() {
           />
       </FloatingLabel>
 
-      <FloatingLabel controlId="floatingTextarea2" label="Comments" className="mb-3">
+      <FloatingLabel controlId="floatingTextarea2" label="Comments" className="mb-3 lato">
         <Form.Control
           as="textarea"
           placeholder="Leave a comment here"
@@ -91,7 +81,7 @@ function Contact() {
       </FloatingLabel>
 
       <Button
-        variant="primary"
+        variant="secondary w-100 btn-md lato fs-5"
         type="submit"
         onClick={() => handleFormSubmit()}
         >

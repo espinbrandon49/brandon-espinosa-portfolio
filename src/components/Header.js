@@ -1,32 +1,89 @@
-import React from "react";
+import React, { useState } from "react";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-import Name from "./minis/Name";
-import Tab from "react-bootstrap/Tab";
-import Tabs from "react-bootstrap/Tabs";
 
-const styles = {
-  name: {
-    transform: "translateY(-50%)",
-  },
-}
+const Header = ({ page, handlePageChange }) => {
+  const [about, setAbout] = useState(false)
+  const [portfolio, setPortfolio] = useState(false)
+  const [contact, setContact] = useState(false)
+  const [resume, setResume] = useState(false)
 
-const Header = ({page, handlePageChange}) => {
-
+  const styles = {
+    lato: {
+      fontFamily: 'Lato',
+      fontWeight: "700",
+    }
+  }
   return (
-    <div >
-      <Name />
-      <Tabs
-        activeKey={page}
-        id="uncontrolled-tab-example" className="mb-3 justify-content-end"
-        style={styles.name}
-        onSelect={(page) => handlePageChange(page)}
-      >
-        <Tab eventKey="about" title="About"></Tab>
-        <Tab eventKey="portfolio" title="Portfolio"></Tab>
-        <Tab eventKey="contact" title="Contact" ></Tab>
-        <Tab eventKey="resume" title="Resume" ></Tab>
-      </Tabs>
-    </div>
+    <Navbar bg="" expand="lg">
+      <Container>
+        <Navbar.Brand className="lora" href="#home">&lt; Brandon Espinosa /&gt;</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav variant="pills" className="me-auto" >
+
+            <Nav.Link
+              onClick={() => {
+                handlePageChange("about")
+                setAbout(true)
+                setPortfolio(false)
+                setContact(false)
+                setResume(false)
+              }}
+              eventKey="about"
+              href="#"
+              className={!!about && "white"}
+              style={styles.lato}
+            >
+              About
+            </Nav.Link>
+
+            <Nav.Link
+              onClick={() => {
+                handlePageChange("portfolio")
+                setAbout(false)
+                setPortfolio(true)
+                setContact(false)
+                setResume(false)
+              }}
+              style={styles.lato}
+              eventKey="portfolio"
+              className={!!portfolio && "white"}>
+              Portfolio
+            </Nav.Link>
+
+            <Nav.Link
+              onClick={() => {
+                handlePageChange("contact")
+                setAbout(false)
+                setPortfolio(false)
+                setContact(true)
+                setResume(false)
+              }}
+              style={styles.lato}
+              eventKey="contact"
+              className={!!contact && "white"}>
+              Contact
+            </Nav.Link>
+            <Nav.Link
+              onClick={() => {
+                handlePageChange("resume")
+                setAbout(false)
+                setPortfolio(false)
+                setContact(false)
+                setResume(true)
+              }}
+              style={styles.lato}
+              eventKey="resume"
+              className={!!resume && "white"}>
+              Resume
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 

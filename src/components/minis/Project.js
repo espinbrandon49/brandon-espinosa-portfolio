@@ -36,7 +36,6 @@ const Project = () => {
       {Projects.map((project, i) => {
         return (
           <div key={i} className="mb-3">
-
             <img src={require(`../../assets/${project.img}.png`)} alt={project.imgAlt} style={styles.width} />
             <Accordion >
               <Accordion.Item eventKey={i} style={styles.width2} >

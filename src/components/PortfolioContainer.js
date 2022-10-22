@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Header from './Header';
 import Footer from './Footer';
+import './app.css'
 
 const styles = {
   width: {
@@ -35,8 +35,6 @@ const PortfolioContainer = () => {
   };
 
   const handlePageChange = (page) => setPage(page);
-
-
   return (
     <div className="App" style={styles.width}>
       <Header page={page} handlePageChange={handlePageChange} />
