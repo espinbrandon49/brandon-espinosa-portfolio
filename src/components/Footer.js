@@ -32,7 +32,7 @@ const Footer = () => {
             <LinkedIn />
           </a>
           <span> </span>
-          <a href="https://www.linkedin.com/in/brandon-espinosa-b65a0b241">
+          <a href="espinbrandon49.medium.com">
             <Medium />
           </a>
         </li>

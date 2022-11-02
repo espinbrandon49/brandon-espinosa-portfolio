@@ -1,65 +1,56 @@
 module.exports = [
   {
-    name: "Collaborative - MERN",
-    technologies: "React.js, Recharts, react-quill, Bulma, Express.js, Node.js, JWT, Apollo Client, MongoDB, Heroku, Figma",
+    name: "Collaborative Fullstack MERN GraphQL - Job Tracker",
+    technologies: "React, JSX, Recharts, Quill, MUI, Bulma, Express.js, Node.js, JWT, Graph QL, MongoDB, Figma",
     deployedLink: "https://hireablehippohelper.herokuapp.com/",
     githubRepo: "https://github.com/espinbrandon49/Hireable-Hippo-Helper",
     img: "hireable-hippo-helper",
     imgAlt: "Full-stack application that allows users to add information about jobs that they have applied for and track their progress",
-    description: "full-stack application that allows users to add information about jobs that they have applied for and track their progress",
+    description: "Full-stack application that allows users to add information about jobs that they have applied for and track their progress.",
   },
   {
-    name: "Collaborative Interactive Front-End",
-    technologies: "JavaScript, HTML, CSS, Skeleton (style), server-side API, client-side storage (local storage), leaflet (map)",
-    deployedLink: "https://espinbrandon49.github.io/EV-Charging-Station-Locator/",
-    githubRepo: "https://github.com/espinbrandon49/EV-Charging-Station-Locator",
-    img: "ev-charging-locator",
-    imgAlt: "App that collects data based on a person's location search and displays map and retail information.",
-    description: "App that collects data based on a person's location search and displays map and retail information."
-  },
-  {
-    name: "Collaborative Full-Stack",
-    technologies: "FRONT-END: HTML, CSS, Javascript, Fetch, Web API, Session Storage, Skeleton, Figma, Quill.js \n BACK-END: Node, NPM, Express, MySQL, Sequelize, user authentication, Handlebars, Socket.io",
+    name: "Collaborative Full-Stack Handlebars, Node, Express, MySQL - Communications",
+    technologies: "HTML, CSS, Javascript, Fetch API, Web API, Skeleton, Figma, Quill.js, Node.js, Express, MySQL, Sequelize, Handlebars, Socket.io",
     deployedLink: "https://narratorium.herokuapp.com/",
     githubRepo: "https://github.com/espinbrandon49/narratorium",
     img: "narratorium",
-    imgAlt: "A collabrative story-telling website designed to allow anyone on the site to contribute to a single story.",
-    description: "A collabrative story-telling website designed to allow anyone on the site to contribute to a single story."
+    imgAlt: "A collaborative story-telling website  to allow anyone on the site to contribute to a single story.",
+    description: "A collaborative story-telling website  to allow anyone on the site to contribute to a single story."
   },
   {
-    name: "Model-View-Controller",
-    technologies: "JavaScript, Handlebars, Node.js, Bootstrap, Express, MySQL2, Sequalize, express-session, connect-session-sequelize, bcrypt",
+    name: "Fullstack MERN GraphQL - Social Pals React (social media)",
+    technologies: "MongoDB, Mongoose, Express, React, JSX, Node.js, Bootstrap, CSS, JWT, React hooks",
+    deployedLink: "https://sopalsreact.herokuapp.com/",
+    githubRepo: "https://github.com/espinbrandon49/so-pals-react",
+    img: "social-pals-react",
+    imgAlt: " social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
+    description: "A social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
+  },
+  {
+    name: "Fullstack React, Node.js, Express, Sequelize - E-commerce",
+    technologies: "Node.js, Express, Mysql2, sequlize, bcrypt, dotenv, multer, JWT, React, Axios, Bootstrap, Formik, JSX, React-Router-Dom, React hooks",
+    deployedLink: "https://lucky-cucurucho-74f5e7.netlify.app/",
+    githubRepo: "https://github.com/espinbrandon49/swapandmeet",
+    img: "ez-swap-meet",
+    imgAlt: "An online flea market to set up your own shop with your own goods, have your own shopping cart, follow shops that you like!",
+    description: "An online flea market to set up your own shop with your own goods, including images and also have your own shopping cart!",
+  },
+  {
+    name: "Collaborative Interactive Front-End - geolocation/map/retail",
+    technologies: "JavaScript, HTML, CSS, Bulma, server-side API, Fetch API Web API, leaflet",
+    deployedLink: "https://espinbrandon49.github.io/EV-Charging-Station-Locator/",
+    githubRepo: "https://github.com/espinbrandon49/EV-Charging-Station-Locator",
+    img: "ev-charging-locator",
+    imgAlt: "App that collects data based on a person's location search and displays map with retail information.",
+    description: "App that collects data based on a person's location search and displays map with retail information.  Searches are saved in local storage."
+  },
+  {
+    name: "Fullstack React, Node.js, Express, MySQL - CMS style blog site",
+    technologies: "HTML, CSS, Bootstrap, JavaScript, Handlebars, Node.js, Express, MySQL2, Sequelize, bcrypt, heroku",
     deployedLink: "https://hackathought.herokuapp.com/",
     githubRepo: "https://github.com/espinbrandon49/hack-a-thought",
     img: "hack-a-thought",
     imgAlt: "CMS-style blog site, where developers can publish their blog posts and comment on posts.",
-    description: "CMS-style blog site, where developers can publish their blog posts and comment on posts."
+    description: "CMS-style blog site, where developers can publish their blog posts, react to posts and have a friend's list."
   },
-  {
-    name: "Web APIs",
-    technologies: "HTML, CSS, JavaScript, Web API, local stroage",
-    deployedLink: "https://espinbrandon49.github.io/javaScriptQuiz/",
-    githubRepo: "https://github.com/espinbrandon49/javaScriptQuiz",
-    img: "javascript-quiz",
-    imgAlt: "Timed coding quiz with multiple-choice questions features dynamically updated HTML and CSS powered by JavaScript.",
-    description: "Timed coding quiz with multiple-choice questions features dynamically updated HTML and CSS powered by JavaScript.",
-  },
-  {
-    name: "Express.js",
-    technologies: "JavaScript, HTML, CSS, Express.js, Bootstrap, Node.js, Heroku, Git, GitHub",
-    deployedLink: "https://stark-taiga-57338.herokuapp.com/",
-    githubRepo: "https://github.com/espinbrandon49/stark_bare_notes",
-    img: "stark-bare-notes",
-    imgAlt: "Note Taker that can be used to write and save notes, uses an Express.js back end.",
-    description: "Note Taker that can be used to write and save notes, uses an Express.js back end.",
-  },
-  {
-    name: "Server-Side API",
-    technologies: "JavaScript, HTML, CSS, Git, GitHub, Chrome DevTools",
-    deployedLink: "https://espinbrandon49.github.io/easy-access-weather/",
-    githubRepo: "https://github.com/espinbrandon49/easy-access-weather",
-    img: "easy-access-weather",
-    imgAlt: "A weather dashboard to see the weather outlook for multiple cities.",
-    description: "A weather dashboard to allow a user to see the weather outlook for multiple cities."
-  }
 ]

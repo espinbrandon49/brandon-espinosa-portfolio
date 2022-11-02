@@ -35,20 +35,20 @@ const Project = () => {
     <div style={styles.flexContainer}>
       {Projects.map((project, i) => {
         return (
-          <div key={i} className="mb-3">
+          <div key={i} className="mb-5">
             <img src={require(`../../assets/${project.img}.png`)} alt={project.imgAlt} style={styles.width} />
             <Accordion >
               <Accordion.Item eventKey={i} style={styles.width2} >
-                <Accordion.Header >
+                <Accordion.Header className="lora">
                   {project.name}
                   <div style={{ marginLeft: "1.5rem" }}>
-                    <a style={styles.noTextDecoration} href={project.githubRepo}><Github /></a>
-                    <a style={styles.noTextDecoration} href={project.deployedLink}> <Globe /></a>
+                    <a rel="noreferrer" style={styles.noTextDecoration} href={project.githubRepo} target="_blank"><Github /></a>
+                    <a rel="noreferrer" style={styles.noTextDecoration} href={project.deployedLink} target="_blank"> <Globe /></a>
                   </div>
                 </Accordion.Header >
                 <Accordion.Body>
-                  <p>{project.description}</p>
-                  <p>{project.technologies}</p>
+                  <p className="lato">{project.description}</p>
+                  <p className="lato">{project.technologies}</p>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>

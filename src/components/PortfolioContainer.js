@@ -7,13 +7,6 @@ import Header from './Header';
 import Footer from './Footer';
 import './app.css'
 
-const styles = {
-  width: {
-    maxWidth: "1200px",
-    margin: "0 auto"
-  },
-};
-
 const PortfolioContainer = () => {
   const [page, setPage] = useState('about');
 
@@ -36,7 +29,7 @@ const PortfolioContainer = () => {
 
   const handlePageChange = (page) => setPage(page);
   return (
-    <div className="App" style={styles.width}>
+    <div className="App container" >
       <Header page={page} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />

@@ -10,8 +10,8 @@ const styles = {
 
 const Portfolio = () => {
   return (
-    <section style={styles.maxWidth}>
-      <h2>Portfolio</h2>
+    <section className="container" style={styles.maxWidth}>
+      <h2 className="lora mb-5">Portfolio</h2>
       <Project/>
     </section>
   );
