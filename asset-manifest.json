@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/brandon-espinosa-portfolio/static/css/main.84487ea8.css",
-    "main.js": "/brandon-espinosa-portfolio/static/js/main.ee77c5c2.js",
-    "static/media/ev-charging-locator.png": "/brandon-espinosa-portfolio/static/media/ev-charging-locator.e1edd96fe345f53433e9.png",
+    "main.css": "/brandon-espinosa-portfolio/static/css/main.f5d6cf8e.css",
+    "main.js": "/brandon-espinosa-portfolio/static/js/main.e555eefb.js",
+    "static/media/ev-charging-locator.png": "/brandon-espinosa-portfolio/static/media/ev-charging-locator.b397084ee0aa7d4683a6.png",
     "static/media/brandon.png": "/brandon-espinosa-portfolio/static/media/brandon.d91c11abf74444d60b5b.png",
     "static/media/narratorium.png": "/brandon-espinosa-portfolio/static/media/narratorium.315268c21e0a2244ec4f.png",
     "static/media/hireable-hippo-helper.png": "/brandon-espinosa-portfolio/static/media/hireable-hippo-helper.a6559bc0f90bcf524fb6.png",
+    "static/media/ez-swap-meet.png": "/brandon-espinosa-portfolio/static/media/ez-swap-meet.97a3f1e1602acb5c960d.png",
     "static/media/hack-a-thought.png": "/brandon-espinosa-portfolio/static/media/hack-a-thought.5497c18ef13b6414c665.png",
+    "static/media/social-pals-react.png": "/brandon-espinosa-portfolio/static/media/social-pals-react.75c680e4a2c1f0fdfc6c.png",
     "static/media/Brandon_Espinosa_Resume.pdf": "/brandon-espinosa-portfolio/static/media/Brandon_Espinosa_Resume.49ab2d15a06d32b2e2c1.pdf",
     "static/media/easy-access-weather.png": "/brandon-espinosa-portfolio/static/media/easy-access-weather.b5c8aeeb936d8e69c01e.png",
     "static/media/javascript-quiz.png": "/brandon-espinosa-portfolio/static/media/javascript-quiz.83f8ab4f4b284985d8af.png",
     "static/media/stark-bare-notes.png": "/brandon-espinosa-portfolio/static/media/stark-bare-notes.9b27b14e3e4cde1d711a.png",
     "index.html": "/brandon-espinosa-portfolio/index.html",
-    "main.84487ea8.css.map": "/brandon-espinosa-portfolio/static/css/main.84487ea8.css.map",
-    "main.ee77c5c2.js.map": "/brandon-espinosa-portfolio/static/js/main.ee77c5c2.js.map"
+    "main.f5d6cf8e.css.map": "/brandon-espinosa-portfolio/static/css/main.f5d6cf8e.css.map",
+    "main.e555eefb.js.map": "/brandon-espinosa-portfolio/static/js/main.e555eefb.js.map"
   },
   "entrypoints": [
-    "static/css/main.84487ea8.css",
-    "static/js/main.ee77c5c2.js"
+    "static/css/main.f5d6cf8e.css",
+    "static/js/main.e555eefb.js"
   ]
 }
