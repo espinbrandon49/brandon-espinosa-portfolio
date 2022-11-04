@@ -18,10 +18,10 @@ const styles = {
 const Footer = () => {
   return (
     <footer>
-      <ul style={styles.contact} >
-        <li>(424)-341-1618</li>
+      <ul className='lora' style={styles.contact} >
+        <li>(313)-645-0722</li>
         <li style={styles.select}>
-          portfolioLinkEmail@gmail.com
+          espinbrandon49@gmail.com
         </li>
         <li>
           <a href="https://github.com/espinbrandon49">

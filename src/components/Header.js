@@ -54,7 +54,7 @@ const Header = ({ page, handlePageChange }) => {
               Portfolio
             </Nav.Link>
 
-            <Nav.Link
+            {/* <Nav.Link
               onClick={() => {
                 handlePageChange("contact")
                 setAbout(false)
@@ -66,7 +66,7 @@ const Header = ({ page, handlePageChange }) => {
               eventKey="contact"
               className={!!contact && "white"}>
               Contact
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link
               onClick={() => {
                 handlePageChange("resume")
