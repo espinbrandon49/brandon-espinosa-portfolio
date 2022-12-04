@@ -6,7 +6,7 @@
 ## Description 
 I bring to any community I am a part of an attitude of service. I don't know how to give less than 150% as a contributor and relish opportunities to give more. Since the day I turned 17 and thus old enough to be of service to others on my own volition, I drilled, trained, studied and cultivated my practice of the core Army values, Loyalty, Duty, Respect, Selfless Service, Honor, Integrity, and Personal Courage and bring this ethos to my every interaction including in my professional work and development.
 
-This is a appliation highlighting my technical proficiencies in the following areas: 
+This is an appliation highlighting my technical proficiencies in the following areas: 
 
 Browser based technologies HTML/CSS, JavaScript, React.JS, Bootstrap , web API, jQuery, responsive design, PWA's.
 Databases - MongoDB and MySQL
@@ -34,7 +34,7 @@ Git clone - git@github.com:espinbrandon49/brandon-espinosa-portfolio.git
 
 To use the site visit the live link above. 
 
-Being a web developer means being part of a community. This is a place for me to share my projects and includes a contact form so that you can message me with any questions and to share your work and collaborations with me.  I look forward to hearing form you.
+Being a web developer means being part of a community. This is a place for me to share my projects. You can message me with any questions and to share your work and collaborations with me.  I look forward to hearing form you.
 
 ## Contributing
 

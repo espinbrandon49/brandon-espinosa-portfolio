@@ -45,12 +45,21 @@ module.exports = [
     description: "App that collects data based on a person's location search and displays map with retail information.  Searches are saved in local storage."
   },
   {
-    name: "Fullstack React, Node.js, Express, MySQL - CMS style blog site",
-    technologies: "HTML, CSS, Bootstrap, JavaScript, Handlebars, Node.js, Express, MySQL2, Sequelize, bcrypt, heroku",
-    deployedLink: "https://hackathought.herokuapp.com/",
-    githubRepo: "https://github.com/espinbrandon49/hack-a-thought",
-    img: "hack-a-thought",
-    imgAlt: "CMS-style blog site, where developers can publish their blog posts and comment on posts.",
-    description: "CMS-style blog site, where developers can publish their blog posts, react to posts and have a friend's list."
+    name: "Fullstack Notetaking Application- Create Retrieve Update Delete notes",
+    technologies: "JavaScript, HTML, CSS, Express.js, Bootstrap, Node.js: File System module, Heroku, Git, GitHub, JSON",
+    deployedLink: "https://stark-taiga-57338.herokuapp.com/",
+    githubRepo: "https://github.com/espinbrandon49/stark_bare_notes",
+    img: "stark-bare-notes",
+    imgAlt: "A note-taking application to write and save notes so that you can can organize your thoughts and keep track of tasks you need to complete.",
+    description: "A note-taking application to write and save notes so that you can can organize your thoughts and keep track of tasks you need to complete."
   },
+  // {
+  //   name: "Fullstack React, Node.js, Express, MySQL - CMS style blog site",
+  //   technologies: "HTML, CSS, Bootstrap, JavaScript, Handlebars, Node.js, Express, MySQL2, Sequelize, bcrypt, heroku",
+  //   deployedLink: "https://hackathought.herokuapp.com/",
+  //   githubRepo: "https://github.com/espinbrandon49/hack-a-thought",
+  //   img: "hack-a-thought",
+  //   imgAlt: "CMS-style blog site, where developers can publish their blog posts and comment on posts.",
+  //   description: "CMS-style blog site, where developers can publish their blog posts, react to posts and have a friend's list."
+  // },
 ]
