@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brandon-espinosa-portfolio/static/css/main.f5d6cf8e.css",
-    "main.js": "/brandon-espinosa-portfolio/static/js/main.97a8a032.js",
+    "main.js": "/brandon-espinosa-portfolio/static/js/main.470e5a8f.js",
     "static/media/ev-charging-locator.png": "/brandon-espinosa-portfolio/static/media/ev-charging-locator.b397084ee0aa7d4683a6.png",
     "static/media/brandon.png": "/brandon-espinosa-portfolio/static/media/brandon.d91c11abf74444d60b5b.png",
     "static/media/narratorium.png": "/brandon-espinosa-portfolio/static/media/narratorium.315268c21e0a2244ec4f.png",
@@ -15,10 +15,10 @@
     "static/media/stark-bare-notes.png": "/brandon-espinosa-portfolio/static/media/stark-bare-notes.9b27b14e3e4cde1d711a.png",
     "index.html": "/brandon-espinosa-portfolio/index.html",
     "main.f5d6cf8e.css.map": "/brandon-espinosa-portfolio/static/css/main.f5d6cf8e.css.map",
-    "main.97a8a032.js.map": "/brandon-espinosa-portfolio/static/js/main.97a8a032.js.map"
+    "main.470e5a8f.js.map": "/brandon-espinosa-portfolio/static/js/main.470e5a8f.js.map"
   },
   "entrypoints": [
     "static/css/main.f5d6cf8e.css",
-    "static/js/main.97a8a032.js"
+    "static/js/main.470e5a8f.js"
   ]
 }
